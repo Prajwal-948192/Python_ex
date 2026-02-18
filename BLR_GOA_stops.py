@@ -3,12 +3,6 @@
     calcualte the number of stops one need to make while travelling from BLR to GOA with dist of 560KM
 '''
 
-# # to get the mileage we need to know the fuel in the car before starting ride,  we need to get the data from user
-# use this formual to get mileage, distance travelled devided by fuel
-#get the fuel tank capacity from user
-# calcualte the distance traveled per one full tank using formuala mileage multiplied by fuel tank capacity
-#to calculate stops use the formuma BLR to GOA distance which is 560km devided by distance traveled per one full tank
-
 ODO_meter1 = int(input( "Please enter the starting reading of car odometer" ))
 ODO_meter2 = int(input( "Please enter the ending reading of car odometer" ))
 Fuel = float(input( " what the amount of fuel before starting the ride ?" ))
